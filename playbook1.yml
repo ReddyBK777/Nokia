@@ -2,15 +2,13 @@
 - name: create user
   hosts: all
   tasks:
-    - name: create user
+    - name: user creation
       user:
-        name: Buji
-        password: Nokia@2022
-        uid: 2345
-        home: /home/ubuntu/Buji
-        comment: "A regular user"
-        shell:  /bin/bash
-
+       name: saroja
+       password: Nokia@2022
+       uid: 6789
+       home: /home/ubuntu/saroja
+       comment: 'A regular user'
+       shell: /bin/bash
 
 ...
-
